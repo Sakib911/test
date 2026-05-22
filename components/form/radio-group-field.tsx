@@ -1,0 +1,77 @@
+import type { Control, FieldValues, Path } from 'react-hook-form'
+
+import {
+  FormControl,
+  FormDescription,
+  FormField,
+  FormItem,
+  FormLabel,
+  FormMessage,
+} from '@/components/ui/form'
+import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group'
+
+type Option = {
+  label: string
+  value: string
+}
+
+interface RadioGroupFieldProps<T extends FieldValues> {
+  name: Path<T>
+  control: Control<T>
+  label: string
+  options: Option[]
+  helperText?: string
+  className?: string
+}
+
+const RadioGroupField = <T extends FieldValues>({
+  name,
+  control,
+  label,
+  options,
+  helperText,
+  ...props
+}: RadioGroupFieldProps<T>) => (
+  <FormField
+    control={control}
+    name={name}
+    render={({ field }) => (
+      <FormItem>
+        <FormLabel>{label}</FormLabel>
+        <FormControl>
+          <RadioGroup
+            onValueChange={field.onChange}
+            value={field.value}
+            className="flex flex-col space-y-1"
+            {...props}
+          >
+            {options.map((option) => (
+              <FormItem
+                key={option.value}
+                className="flex items-center space-x-3 space-y-0"
+              >
+                <FormControl>
+                  {/* Use the correct RadioGroup primitive for each option */}
+                  <RadioGroupItem
+                    value={option.value}
+                    id={`${name}-${option.value}`}
+                  />
+                </FormControl>
+                <FormLabel
+                  className="font-normal"
+                  htmlFor={`${name}-${option.value}`}
+                >
+                  {option.label}
+                </FormLabel>
+              </FormItem>
+            ))}
+          </RadioGroup>
+        </FormControl>
+        {helperText && <FormDescription>{helperText}</FormDescription>}
+        <FormMessage />
+      </FormItem>
+    )}
+  />
+)
+
+export default RadioGroupField

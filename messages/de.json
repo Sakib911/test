@@ -1,0 +1,230 @@
+{
+  "common": {
+    "loading": "Laden...",
+    "submit": "Absenden",
+    "reset": "Zurücksetzen",
+    "cancel": "Abbrechen",
+    "save": "Speichern",
+    "edit": "Bearbeiten",
+    "delete": "Löschen",
+    "create": "Erstellen",
+    "update": "Aktualisieren",
+    "search": "Suchen",
+    "filter": "Filtern",
+    "clear": "Löschen",
+    "success": "Erfolg",
+    "error": "Fehler",
+    "warning": "Warnung",
+    "info": "Information",
+    "confirm": "Bestätigen",
+    "yes": "Ja",
+    "no": "Nein",
+    "back": "Zurück",
+    "next": "Weiter",
+    "previous": "Vorherige",
+    "actions": "Aktionen",
+    "view": "Ansehen",
+    "download": "Herunterladen",
+    "upload": "Hochladen",
+    "close": "Schließen",
+    "open": "Öffnen",
+    "expand": "Erweitern",
+    "collapse": "Zuklappen",
+    "language": {
+      "en": "English",
+      "de": "Deutsch"
+    }
+  },
+  "navigation": {
+    "home": "Startseite",
+    "design_system": "Design System",
+    "dashboard": "Dashboard",
+    "profile": "Profil",
+    "settings": "Einstellungen"
+  },
+  "forms": {
+    "labels": {
+      "Enter the email address associated with your account": "Enter the email address associated with your account",
+      "firstName": "Vorname",
+      "lastName": "Nachname",
+      "email": "E-Mail-Adresse",
+      "password": "Passwort",
+      "confirmPassword": "Passwort bestätigen",
+      "phone": "Telefonnummer",
+      "address": "Adresse",
+      "city": "Stadt",
+      "rememberMe": "Angemeldet bleiben",
+      "Remember me": "Angemeldet bleiben",
+      "Current Password": "Aktuelles Passwort",
+      "New Password": "Neues Passwort",
+      "Confirm New Password": "Neues Passwort bestätigen",
+      "Your existing password": "Ihr bestehendes Passwort",
+      "Must be 8+ characters with uppercase, lowercase, and number": "Muss 8+ Zeichen mit Groß-, Kleinbuchstaben und Zahlen enthalten",
+      "Re-enter your new password": "Geben Sie Ihr neues Passwort erneut ein",
+      "country": "Land",
+      "postalCode": "Postleitzahl",
+      "dateOfBirth": "Geburtsdatum",
+      "gender": "Geschlecht",
+      "company": "Unternehmen",
+      "position": "Position",
+      "website": "Website",
+      "description": "Beschreibung",
+      "category": "Kategorie",
+      "status": "Status",
+      "priority": "Priorität",
+      "amount": "Betrag",
+      "currency": "Währung",
+      "startDate": "Startdatum",
+      "endDate": "Enddatum",
+      "dateRange": "Datumsbereich",
+      "file": "Datei",
+      "image": "Bild",
+      "color": "Farbe",
+      "terms": "Ich stimme den Allgemeinen Geschäftsbedingungen zu",
+      "newsletter": "Newsletter abonnieren"
+    },
+    "placeholders": {
+      "firstName": "Vorname eingeben",
+      "lastName": "Nachname eingeben",
+      "email": "E-Mail-Adresse eingeben",
+      "password": "Passwort eingeben",
+      "confirmPassword": "Passwort bestätigen",
+      "Enter your current password": "Aktuelles Passwort eingeben",
+      "Enter your new password": "Neues Passwort eingeben",
+      "Confirm your new password": "Neues Passwort bestätigen",
+      "phone": "Telefonnummer eingeben",
+      "address": "Adresse eingeben",
+      "city": "Stadt eingeben",
+      "search": "Suchen...",
+      "selectOption": "Option auswählen",
+      "selectMultiple": "Mehrere Optionen auswählen",
+      "description": "Beschreibung eingeben",
+      "website": "https://beispiel.de",
+      "amount": "0,00"
+    },
+    "validation": {
+      "required": "Dieses Feld ist erforderlich",
+      "email": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
+      "phone": "Bitte geben Sie eine gültige Telefonnummer ein",
+      "url": "Bitte geben Sie eine gültige URL ein",
+      "min": "Mindestens {min} Zeichen erforderlich",
+      "max": "Maximal {max} Zeichen erlaubt",
+      "passwordMatch": "Passwörter stimmen nicht überein"
+    }
+  },
+  "components": {
+    "dataTable": {
+      "title": "Datentabellen-Beispiele",
+      "subtitle": "Umfassende Datentabelle mit Sortierung, Filterung und Paginierung",
+      "noResults": "Keine Ergebnisse gefunden",
+      "showingResults": "Zeige {from} bis {to} von {total} Ergebnissen",
+      "itemsPerPage": "Elemente pro Seite",
+      "page": "Seite",
+      "of": "von",
+      "goToFirstPage": "Zur ersten Seite",
+      "goToPreviousPage": "Zur vorherigen Seite",
+      "goToNextPage": "Zur nächsten Seite",
+      "goToLastPage": "Zur letzten Seite",
+      "sortBy": "Sortieren nach",
+      "filterBy": "Filtern nach",
+      "actions": "Aktionen",
+      "selectAll": "Alle auswählen",
+      "selectRow": "Zeile auswählen",
+      "expandRow": "Zeile erweitern",
+      "collapseRow": "Zeile zuklappen"
+    },
+    "forms": {
+      "title": "Formular-Komponenten",
+      "subtitle": "Dynamische Formulargenerierung mit Validierung",
+      "basicForm": "Einfaches Formular-Beispiel",
+      "advancedForm": "Erweiterte Formular-Beispiel",
+      "fileUploadForm": "Datei-Upload-Formular",
+      "multiStepForm": "Mehrstufiges Formular"
+    },
+    "ui": {
+      "title": "UI-Komponenten",
+      "subtitle": "Vollständige Sammlung wiederverwendbarer UI-Komponenten",
+      "buttons": "Schaltflächen",
+      "inputs": "Eingabefelder",
+      "selects": "Auswahl-Komponenten",
+      "feedback": "Feedback-Komponenten",
+      "layout": "Layout-Komponenten",
+      "navigation": "Navigations-Komponenten",
+      "overlays": "Overlay-Komponenten"
+    }
+  },
+  "designSystem": {
+    "title": "Design System",
+    "subtitle": "Umfassende Komponentenbibliothek und Design-Patterns",
+    "overview": "Übersicht",
+    "components": "Komponenten",
+    "examples": "Beispiele",
+    "documentation": "Dokumentation"
+  },
+  "examples": {
+    "userManagement": "Benutzerverwaltung",
+    "productCatalog": "Produktkatalog",
+    "orderHistory": "Bestellhistorie",
+    "analytics": "Analytics Dashboard",
+    "settings": "Einstellungsbereich"
+  },
+  "homepage": {
+    "title": "Starter Pack Design System",
+    "subtitle": "Eine umfassende Komponentenbibliothek, die mit Next.js, TypeScript, React Query und Internationalisierung erstellt wurde. Alles was Sie brauchen, um moderne Webanwendungen zu erstellen.",
+    "exploreDesignSystem": "Design System erkunden",
+    "viewDocumentation": "Dokumentation anzeigen",
+    "readyToGetStarted": "Bereit loszulegen?",
+    "readyToGetStartedDescription": "Erkunden Sie unser umfassendes Design System und sehen Sie alle Komponenten in Aktion",
+    "viewDesignSystem": "Design System anzeigen",
+    "features": {
+      "reactQuery": {
+        "title": "React Query",
+        "description": "Leistungsstarke Datensynchronisation für React-Anwendungen",
+        "item1": "Server-Zustandsverwaltung",
+        "item2": "Automatisches Caching",
+        "item3": "Hintergrund-Updates",
+        "item4": "Fehlerbehandlung"
+      },
+      "internationalization": {
+        "title": "Internationalisierung",
+        "description": "Mehrsprachige Unterstützung mit next-intl",
+        "item1": "Englisch & Deutsch",
+        "item2": "Typsichere Übersetzungen",
+        "item3": "Server-seitiges Rendering",
+        "item4": "Locale-Routing"
+      },
+      "uiComponents": {
+        "title": "UI-Komponenten",
+        "description": "50+ wiederverwendbare Komponenten mit shadcn/ui",
+        "item1": "Modernes Design System",
+        "item2": "Barrierefreie Komponenten",
+        "item3": "Dark Mode Unterstützung",
+        "item4": "Anpassbare Themes"
+      },
+      "formManagement": {
+        "title": "Formularverwaltung",
+        "description": "Dynamische Formulare mit Validierung & Typsicherheit",
+        "item1": "React Hook Form",
+        "item2": "Zod-Validierung",
+        "item3": "Dynamische Feldgenerierung",
+        "item4": "Datei-Uploads"
+      },
+      "dataTables": {
+        "title": "Daten-Tabellen",
+        "description": "Erweiterte Tabellen mit Sortierung, Filterung & Paginierung",
+        "item1": "TanStack Table",
+        "item2": "Unendliches Scrollen",
+        "item3": "Spaltenverwaltung",
+        "item4": "Export-Funktionalität"
+      },
+      "typescript": {
+        "title": "TypeScript",
+        "description": "Vollständige Typsicherheit in der gesamten Anwendung",
+        "item1": "Strenge Typprüfung",
+        "item2": "IntelliSense-Unterstützung",
+        "item3": "Laufzeit-Sicherheit",
+        "item4": "Bessere Entwicklererfahrung"
+      }
+    }
+  }
+}
